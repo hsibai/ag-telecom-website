@@ -146,12 +146,20 @@
           </div>
         </div>
         <div class="bg-slate-50 p-10 rounded-3xl">
-          <form action="https://formspree.io/f/YOUR_CODE_HERE" method="POST" class="space-y-6">
-            <input type="text" name="name" placeholder="Your Name" required class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:outline-none focus:border-cyan-500">
-            <input type="email" name="email" placeholder="Your Email" required class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:outline-none focus:border-cyan-500">
-            <textarea name="message" rows="5" placeholder="Message / Investment Inquiry" required class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:outline-none focus:border-cyan-500"></textarea>
-            <button type="submit" class="w-full bg-blue-900 text-white py-5 rounded-2xl font-semibold text-lg hover:bg-cyan-600 transition">Send Message</button>
-          </form>
+          <form action="https://formsubmit.co/info@ag-telecom.com" method="POST" class="space-y-6">
+  <input type="text" name="name" placeholder="Your Name" required class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:outline-none focus:border-cyan-500">
+  <input type="email" name="email" placeholder="Your Email" required class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:outline-none focus:border-cyan-500">
+  <textarea name="message" rows="5" placeholder="Message / Investment Inquiry" required class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:outline-none focus:border-cyan-500"></textarea>
+  
+  <!-- Hidden fields for better delivery -->
+  <input type="hidden" name="_subject" value="New Inquiry from AG Telecom Website">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://ag-telecom.com?submitted=1">
+
+  <button type="submit" class="w-full bg-blue-900 text-white py-5 rounded-2xl font-semibold text-lg hover:bg-cyan-600 transition">Send Message</button>
+</form>
+  
+  
           <p class="text-xs text-slate-500 mt-4 text-center">Or simply email <a href="mailto:info@ag-telecom.com" class="underline">info@ag-telecom.com</a></p>
         </div>
       </div>
