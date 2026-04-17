@@ -1,136 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AG Telecom | Enterprise Connectivity Solutions</title>
+    <title>AG Telecom | Strategic Connectivity in Emerging Markets</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bg-brand-navy { background-color: #0f172a; }
+        .text-brand-blue { color: #2563eb; }
+        .text-brand-green { color: #84cc16; }
+        .border-brand-green { border-color: #84cc16; }
         .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+<body class="bg-white text-slate-900">
 
-    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex-shrink-0 flex items-center">
-                    <span class="text-2xl font-bold text-blue-600">AG</span>
-                    <span class="text-2xl font-bold text-slate-800">TELECOM</span>
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="#services" class="hover:text-blue-600 transition">Services</a>
-                        <a href="#about" class="hover:text-blue-600 transition">About</a>
-                        <a href="#infrastructure" class="hover:text-blue-600 transition">Infrastructure</a>
-                        <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">Get a Quote</a>
-                    </div>
-                </div>
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold tracking-tighter text-brand-blue">AG</span>
+                <span class="text-2xl font-bold tracking-tighter text-slate-800">TELECOM</span>
+            </div>
+            <div class="hidden lg:flex space-x-10 font-medium text-sm uppercase tracking-wider">
+                <a href="#about" class="hover:text-brand-blue transition">The Group</a>
+                <a href="#infrastructure" class="hover:text-brand-blue transition">Infrastructure</a>
+                <a href="#strategy" class="hover:text-brand-blue transition">Our Strategy</a>
+                <a href="#contact" class="bg-brand-navy text-white px-6 py-2.5 rounded-full hover:bg-blue-700 transition">Contact Us</a>
             </div>
         </div>
     </nav>
 
-    <header class="hero-gradient pt-32 pb-20 px-4">
-        <div class="max-w-7xl mx-auto text-center text-white">
-            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">
-                Empowering the Future of <br><span class="text-blue-400">Digital Connectivity</span>
+    <header class="hero-gradient pt-48 pb-32 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+            <span class="text-brand-green font-bold tracking-[0.2em] mb-4 text-sm uppercase">Global Expertise | Local Impact</span>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight max-w-5xl">
+                Bridging the Digital Divide in <span class="text-brand-blue">Emerging Markets</span>
             </h1>
-            <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-10">
-                AG Telecom provides mission-critical communication infrastructure and high-performance network solutions designed for the modern enterprise.
+            <p class="text-xl text-slate-300 max-w-2xl mb-12 leading-relaxed">
+                A Dubai-based investment leader specializing in high-performance telecommunications infrastructure and national-scale network operations.
             </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#services" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold transition shadow-lg">Our Solutions</a>
-                <a href="#contact" class="bg-transparent border border-slate-500 hover:border-white text-white px-8 py-4 rounded-xl font-semibold transition">Consult an Expert</a>
+            <div class="flex flex-col sm:flex-row gap-5">
+                <a href="#infrastructure" class="bg-brand-blue text-white px-10 py-4 rounded-xl font-bold shadow-xl shadow-blue-900/20 hover:scale-105 transition">Explore Assets</a>
+                <a href="#strategy" class="bg-white/10 text-white border border-white/20 px-10 py-4 rounded-xl font-bold hover:bg-white/20 transition">Our Vision</a>
             </div>
         </div>
     </header>
 
-    <section class="py-12 bg-white">
-        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <section id="about" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
             <div>
-                <p class="text-3xl font-bold text-blue-600">99.9%</p>
-                <p class="text-slate-500 uppercase text-sm tracking-widest">Uptime Rate</p>
+                <h2 class="text-brand-green font-bold text-sm tracking-widest uppercase mb-4">About AG Telecom</h2>
+                <h3 class="text-4xl font-bold mb-6 text-slate-900 leading-snug">Enterprise-Grade Investment in Connectivity</h3>
+                <div class="space-y-6 text-slate-600 leading-relaxed">
+                    <p>
+                        Established in 2006, AG Telecom LLC is a Dubai-based holding company focused on telecommunications infrastructure in frontier markets. 
+                        We specialize in identifying opportunities where rapid growth meets underserved demand[cite: 70].
+                    </p>
+                    <p>
+                        Our primary subsidiary, <strong>Wasel Telecom</strong>, is a licensed Mobile Network Operator (MNO) in Afghanistan[cite: 5, 71]. 
+                        By leveraging Tier-1 vendor partnerships and cutting-edge spectrum, we provide mission-critical communication services in post-conflict regions[cite: 11, 87].
+                    </p>
+                </div>
+                <div class="mt-10 grid grid-cols-2 gap-8">
+                    <div>
+                        <div class="text-3xl font-bold text-brand-blue">45M+</div>
+                        <p class="text-sm text-slate-500 uppercase tracking-wide">Target Population [cite: 95, 173]</p>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-brand-blue">17 yrs</div>
+                        <p class="text-sm text-slate-500 uppercase tracking-wide">Median Market Age [cite: 174]</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p class="text-3xl font-bold text-blue-600">24/7</p>
-                <p class="text-slate-500 uppercase text-sm tracking-widest">Global Support</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-blue-600">10Gbps+</p>
-                <p class="text-slate-500 uppercase text-sm tracking-widest">Fiber Speeds</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-blue-600">500+</p>
-                <p class="text-slate-500 uppercase text-sm tracking-widest">Enterprise Clients</p>
+            <div class="rounded-3xl overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80" alt="Networking Infrastructure" class="w-full h-[500px] object-cover">
             </div>
         </div>
     </section>
 
-    <section id="services" class="py-20 px-4">
+    <section id="infrastructure" class="py-24 px-6">
         <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">World-Class Solutions</h2>
-                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Prime Spectrum Assets</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto">Wasel Telecom holds the "Golden" 850 MHz Band 5 Spectrum, ideally suited for superior coverage and rapid deployment[cite: 13, 24].</p>
             </div>
             
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-xl">
-                        <i class="fas fa-network-wired"></i>
+                <div class="p-10 bg-white rounded-3xl border border-slate-100 hover:border-brand-blue transition group">
+                    <div class="w-14 h-14 bg-blue-50 text-brand-blue rounded-2xl flex items-center justify-center mb-8 text-2xl group-hover:bg-brand-blue group-hover:text-white transition">
+                        <i class="fas fa-signal"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Managed Networking</h3>
-                    <p class="text-slate-600">Secure, scalable, and resilient SD-WAN and MPLS solutions tailored to your business architecture.</p>
+                    <h4 class="text-xl font-bold mb-4 uppercase tracking-tight">850 MHz Band 5</h4>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> Superior indoor penetration [cite: 29]</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> Lifts & basement coverage [cite: 29]</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> 10+10 MHz FDD Spectrum [cite: 281]</li>
+                    </ul>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-xl">
-                        <i class="fas fa-phone-alt"></i>
+
+                <div class="p-10 bg-white rounded-3xl border border-slate-100 hover:border-brand-blue transition group">
+                    <div class="w-14 h-14 bg-blue-50 text-brand-blue rounded-2xl flex items-center justify-center mb-8 text-2xl group-hover:bg-brand-blue group-hover:text-white transition">
+                        <i class="fas fa-microchip"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Unified Communications</h3>
-                    <p class="text-slate-600">VoIP and cloud-based communication systems that unify your team across the globe.</p>
+                    <h4 class="text-xl font-bold mb-4 uppercase tracking-tight">Next-Gen Tech</h4>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> 4G/5G Network Readiness [cite: 8, 27]</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> AI-Integrated Infrastructure [cite: 283]</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> Virtualized Core Functions [cite: 308]</li>
+                    </ul>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-xl">
-                        <i class="fas fa-shield-alt"></i>
+
+                <div class="p-10 bg-white rounded-3xl border border-slate-100 hover:border-brand-blue transition group">
+                    <div class="w-14 h-14 bg-blue-50 text-brand-blue rounded-2xl flex items-center justify-center mb-8 text-2xl group-hover:bg-brand-blue group-hover:text-white transition">
+                        <i class="fas fa-globe"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Cybersecurity</h3>
-                    <p class="text-slate-600">Advanced threat protection and encrypted data pathways to keep your business communications safe.</p>
+                    <h4 class="text-xl font-bold mb-4 uppercase tracking-tight">National Reach</h4>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> 15-Year National License [cite: 281]</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> Strategic Hub Location [cite: 175]</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-brand-green"></i> Legacy-Free Architecture [cite: 307]</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-20 bg-slate-900 text-white px-4">
-        <div class="max-w-4xl mx-auto">
+    <section id="strategy" class="py-24 px-6 bg-brand-navy text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-brand-green font-bold text-sm tracking-[0.3em] uppercase mb-4">Strategic Vision</h2>
+                <h3 class="text-4xl font-bold mb-8">Modernizing the Heart of Asia</h3>
+            </div>
+            
             <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-8">
+                    <div class="flex gap-6">
+                        <div class="text-brand-green text-2xl font-bold underline">01</div>
+                        <div>
+                            <h5 class="text-xl font-bold mb-2">Addressing the Digital Divide</h5>
+                            <p class="text-slate-400">Targeting underserved rural areas to provide access to e-learning and online services, fostering local micro-economies[cite: 290, 313, 314].</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="text-brand-green text-2xl font-bold underline">02</div>
+                        <div>
+                            <h5 class="text-xl font-bold mb-2">State-of-the-Art Core</h5>
+                            <p class="text-slate-400">Deploying virtualized core functions, mesh design, and self-healing networks for premium performance[cite: 308].</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="text-brand-green text-2xl font-bold underline">03</div>
+                        <div>
+                            <h5 class="text-xl font-bold mb-2">Emerging Market Expansion</h5>
+                            <p class="text-slate-400">Focusing on high-potential markets with target populations to maximize CAPEX efficiency[cite: 82].</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-blue-600/10 border border-blue-500/20 p-10 rounded-3xl">
+                    <h4 class="text-2xl font-bold mb-6">Partnership Opportunities</h4>
+                    <p class="text-slate-300 mb-8 leading-relaxed">
+                        AG Telecom is actively seeking partnerships and capital to accelerate the rollout of 4G/5G services in major Afghan cities and expand its frontier market footprint[cite: 72, 79, 80].
+                    </p>
+                    <a href="#contact" class="inline-block bg-white text-brand-navy px-8 py-3 rounded-xl font-bold hover:bg-slate-200 transition">Inquire for Partnership</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Connect with AG Telecom</h2>
+                <p class="text-slate-500">Contact our Dubai headquarters for strategic inquiries.</p>
+            </div>
+            <div class="w-full max-w-4xl bg-white shadow-2xl rounded-[3rem] p-12 border border-slate-100 grid md:grid-cols-2 gap-12">
                 <div>
-                    <h2 class="text-3xl font-bold mb-6">Ready to Scale?</h2>
-                    <p class="text-slate-400 mb-8">Contact our technical sales team today to discuss a custom solution for your organization.</p>
-                    <div class="space-y-4">
+                    <h5 class="text-xl font-bold mb-8">Headquarters</h5>
+                    <div class="space-y-6">
                         <div class="flex items-center gap-4">
-                            <i class="fas fa-envelope text-blue-400"></i>
-                            <span>solutions@ag-telecom.com</span>
+                            <div class="w-10 h-10 bg-slate-100 flex items-center justify-center rounded-lg text-brand-blue">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span class="text-slate-600 italic">P.O. Box: 80997,<br>Dubai, United Arab Emirates</span>
                         </div>
                         <div class="flex items-center gap-4">
-                            <i class="fas fa-phone text-blue-400"></i>
-                            <span>+1 (800) AG-TELECOM</span>
+                            <div class="w-10 h-10 bg-slate-100 flex items-center justify-center rounded-lg text-brand-blue">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <span class="text-slate-600 font-semibold text-sm">Hatem Al Sibai, Chairman & CEO [cite: 94]</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-slate-100 flex items-center justify-center rounded-lg text-brand-blue">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="text-slate-600">hsibai@gmail.com [cite: 94]</span>
                         </div>
                     </div>
                 </div>
                 <form class="space-y-4">
-                    <input type="text" placeholder="Full Name" class="w-full bg-slate-800 border border-slate-700 p-3 rounded-lg focus:outline-none focus:border-blue-500">
-                    <input type="email" placeholder="Business Email" class="w-full bg-slate-800 border border-slate-700 p-3 rounded-lg focus:outline-none focus:border-blue-500">
-                    <textarea placeholder="Tell us about your needs" rows="4" class="w-full bg-slate-800 border border-slate-700 p-3 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
-                    <button class="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-bold transition">Send Inquiry</button>
+                    <input type="text" placeholder="Your Name" class="w-full bg-slate-50 p-4 rounded-xl border border-slate-200 focus:outline-none focus:border-brand-blue transition">
+                    <input type="email" placeholder="Business Email" class="w-full bg-slate-50 p-4 rounded-xl border border-slate-200 focus:outline-none focus:border-brand-blue transition">
+                    <textarea placeholder="Message" rows="4" class="w-full bg-slate-50 p-4 rounded-xl border border-slate-200 focus:outline-none focus:border-brand-blue transition"></textarea>
+                    <button class="w-full bg-brand-navy text-white py-4 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg">Send Message</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <footer class="py-10 border-t border-slate-200 text-center text-slate-500 text-sm">
-        <p>&copy; 2026 AG Telecom. All rights reserved. Connectivity, redefined.</p>
+    <footer class="py-12 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 text-center text-slate-400 text-sm">
+            <p class="mb-4">&copy; 2026 AG Telecom LLC. All Rights Reserved.</p>
+            <p>Dubai, United Arab Emirates | Kabul, Afghanistan </p>
+        </div>
     </footer>
 
 </body>
